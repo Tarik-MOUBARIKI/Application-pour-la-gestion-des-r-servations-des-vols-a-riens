@@ -32,8 +32,8 @@
 
 <div class="header">
   <form action="index.php" method="post">
-  <h1>  </h1>
-    <p></p>
+  <h1>Fly-Voyage</h1>
+    <p>Ou voulez-vous voyager?</p>
     <div class="font-box">
 
     <select name="depart" class="search-field skills" id="inputGroupSelect01">
