@@ -34,8 +34,7 @@ CREATE TABLE IF NOT EXISTS `client` (
   `Nom` varchar(200) NOT NULL,
   `Prenom` varchar(200) NOT NULL,
   `Email` varchar(200) NOT NULL,
-  `tel` varchar(15) NOT NULL,
-  `CIN` varchar(10) NOT NULL,
+ 
   PRIMARY KEY (`idClient`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
 
