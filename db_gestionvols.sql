@@ -90,9 +90,9 @@ CREATE TABLE IF NOT EXISTS `vols` (
 --
 
 INSERT INTO `vols` (`idVol`, `depart`, `destination`, `date_depart`, `time`, `prix`, `place_disponible`) VALUES
-(1, 'Safi', 'Casablanca', '2020-05-10', '12:00:00', 100, 10),
-(2, 'Agadir', 'Fes', '2020-05-12', '00:00:00', 200, 20),
-(3, 'Fes', 'Marrakech', '2020-06-11', '18:00:00', 300, 0);
+(1, 'Safi', 'Casablanca', '2020-05-10', '12:00:00', 1000, 10),
+(2, 'Agadir', 'Fes', '2020-05-12', '00:00:00', 2000, 20),
+(3, 'Fes', 'Marrakech', '2020-06-11', '18:00:00', 3000, 0);
 
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
