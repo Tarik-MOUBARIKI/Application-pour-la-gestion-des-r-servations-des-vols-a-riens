@@ -43,9 +43,8 @@ CREATE TABLE IF NOT EXISTS `client` (
 -- Déchargement des données de la table `client`
 --
 
-INSERT INTO `client` (`idClient`, `Nom`, `Prenom`, `Email`, `tel`, `CIN`) VALUES
-(1, 'lmajad', 'ndor', 'mjid@gmail.com', 'SH6667', '0697546508');
-
+INSERT INTO `client` (`idClient`, `Nom`, `Prenom`, `Email`) VALUES
+(1, 'tarik', 'moubariki', 'moubariki.tarik@gmail.com');
 -- --------------------------------------------------------
 
 --
