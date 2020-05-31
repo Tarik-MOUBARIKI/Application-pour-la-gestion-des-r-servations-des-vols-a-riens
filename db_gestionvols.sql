@@ -44,7 +44,8 @@ CREATE TABLE IF NOT EXISTS `client` (
 --
 
 INSERT INTO `client` (`idClient`, `Nom`, `Prenom`, `Email`) VALUES
-(1, 'tarik', 'moubariki', 'moubariki.tarik@gmail.com');
+(1, 'tarek', 'moubariki', 'moubariki.tarik@gmail.com');
+
 -- --------------------------------------------------------
 
 --
@@ -65,7 +66,7 @@ CREATE TABLE IF NOT EXISTS `reservation` (
 --
 
 INSERT INTO `reservation` (`idreservation`, `idClient`, `idVol`, `date_reseravtion`) VALUES
-(1, 1, 3, '2020-05-14 17:17:47');
+(1, 1, 3, '2020-03-06 08:00:00');
 
 -- --------------------------------------------------------
 
@@ -90,9 +91,9 @@ CREATE TABLE IF NOT EXISTS `vols` (
 --
 
 INSERT INTO `vols` (`idVol`, `depart`, `destination`, `date_depart`, `time`, `prix`, `place_disponible`) VALUES
-(1, 'Safi', 'casablanca', '2020-05-28', '12:00:00', 100, 10),
-(2, 'dakhla', 'fes', '2020-05-31', '00:00:00', 300, 100),
-(3, 'dakhla', 'fes', '2020-06-18', '17:30:00', 300, 0);
+(1, 'Safi', 'Casablanca', '2020-05-28', '12:00:00', 100, 10),
+(2, 'Agadir', 'Fes', '2020-05-31', '00:00:00', 200, 20),
+(3, 'Fes', 'Marrakech', '2020-06-18', '17:30:00', 300, 0);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
